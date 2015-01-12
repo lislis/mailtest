@@ -7,4 +7,4 @@ notifications:
   email:
     recipients:
       - lisa@travis-ci.com
-      - aeabaac@emailtests.com
+      - 0bdf71e@emailtests.com

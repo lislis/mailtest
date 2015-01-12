@@ -56,7 +56,7 @@ feature 'Manage topics of a group' do
       expect(page).to_not have_content('Talk about animated gifs')
     end
     within('.future-topics') do
-      expect(page).to_not have_content('Talk about databases')
+      expect(page).to have_content('Talk about databases')
       expect(page).to     have_content('Talk about animated gifs')
     end
   end
